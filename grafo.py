@@ -27,7 +27,7 @@ for line in nx.generate_edgelist(G, data=False):
 print('Total edge:'+str(u))
 ###################################################################
 print(50*'#')
-print('Matriz de distâncias')
+print('Paths matrix')
 mat=np.zeros((len(grafo),len(grafo)))
 
 m=[]
@@ -47,5 +47,5 @@ plt.show()
 
 print(50*'#')
 ###################################################################
-print('Fim!')
+print('End!')
 ###################################################################
